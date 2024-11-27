@@ -1,11 +1,10 @@
 import { counterElement } from './dom-elements-common.js';
 import { isInViewport } from './utils.js';
-import { httpGet } from '../utils.js';
 
 import $ from 'jquery';
-import jQuery from 'jquery';
+
 import 'flipclock/compiled/flipclock.js';
-import log from 'loglevel';
+
 
 const baselineDate = new Date(2018, 3 - 1, 6);
 // We should try to get a real number for this.
